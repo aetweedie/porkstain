@@ -56,5 +56,9 @@ app.use(function(err, req, res, next) {
   });
 });
 
+app.listen(3007, function () {
+  console.log('Shit is popping on port 3007!')
+})
+
 
 module.exports = app;
