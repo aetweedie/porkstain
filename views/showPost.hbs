@@ -1,0 +1,16 @@
+<div class="head">
+<h1>Porkstain</h1>
+</div>
+<div class="show-post">
+{{#posts}}
+  <h1>{{posts}} - {{postTitle}}</h1>
+  <br>
+  <h3>Post content</h3>
+  {{postContent}}
+  <br>
+  <h3>Posted on:</h3>{{datePosted}}
+  <br>
+  <a href="/{{_id}}/editPost">Modify this post</a>
+{{/posts}}
+  <a href="/">Return to homepage</a>
+</div>

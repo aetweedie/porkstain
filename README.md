@@ -5,4 +5,6 @@
 2. Run ```npm install```
 3. Run ```node app.js``` in your terminal.
 4. Hit up ```localhost:3007``` in your browser.
-5. Get weird.
+5. Install Mongo DB ```brew install mongodb```
+6. Run ```mongod``` in your terminal
+7. Get weird.

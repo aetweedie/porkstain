@@ -1,3 +1,20 @@
+<div class="head">
 <h1>Porkstain</h1>
-<p>Your home for internet filth</p>
-<img src="http://ak.c.ooyala.com/ZkN2pyNDE6nwLD95rE2_FV4eXh7FSjup/promo292881498" alt="Pork stain on carpet">
+
+<h2>Read something nasty!</h2>
+
+<a href="/new" class="new-post-link">Add a new post</a>
+</div>
+
+<div class="posts">
+{{#each posts}}
+  <h3>{{posts}}-{{postTitle}}</h3> Posted on {{datePosted}}
+  <br>
+  <br>
+  {{postContent}}
+  <br>
+  <a class="viewPosting" href="/{{_id}}">Read more!</a>
+  <br>
+  <br>
+{{/each}}
+</div>
